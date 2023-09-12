@@ -93,10 +93,22 @@ div.line {
   }
   #menu a {
     color: #fff;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
     font-size: 32px;
     margin-bottom: 30px;
     text-decoration: none;
+  }
+
+  #menu a span{
+    font-size: 32px;
+  }
+
+  #menu a:hover {
+    color: var(--bs-yellow);
   }
 
 /* Main Content----------------- */
